@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Product Inventory Manager</title>
+</head>
+<body>
+    <header class="js-header">PRODUCT INVENTORY MANAGER</header>
+    <!-- 1ST SECTION -->
+    <section>
+
+        <div class="js-new-product-container">
+
+            <h3 class="h3-heading">ADD NEW PRODUCT</h3>
+            <div class="new-product-detail">
+
+                <div class="product-id detail">
+                    <label for="product-add" class="js-label">Product ID</label>
+                    <input id="product-add" class="product-add-input add-product-id" type="text" placeholder="Enter product ID">
+                </div>
+
+                <div class="product-name detail">
+                    <label for="pro-name-add" class="js-label">Product Name</label>
+                    <input id="pro-name-add" class="product-add-input add-product-name" type="text" placeholder="Enter product Name">
+                </div>
+
+                <div class="product-price detail">
+                    <label for="pro-num-add" class="js-label">Price</label>
+                    <input id="pro-num-add" class="product-add-input add-product-price" type="number" placeholder="Enter Price">
+                </div>
+
+                <div class="product-stock detail">
+                    <label for="pro-add-num" class="js-label">Stock</label>
+                    <input id="pro-add-num" class="product-add-input add-product-stock" type="number" placeholder="Enter Stock">
+                </div>
+
+            </div>
+
+            <div class="product-add-button">
+                <button type="submit" class="js-product-add-button"><i class="fa-solid fa-plus add-sign"></i> Add Product</button>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- 2ND SECTION -->
+    <section>
+
+        <div class="js-search-delete-part">
+
+            <div class="search-part second-part">
+                <h4 class="h4-heading">SEARCH PRODUCT</h4>
+
+                <div class="search-detail-put">
+                    <label for="search-name">Search by Name</label>
+                    <input id="search-name" class="name-search" type="text" placeholder="Enter product Name">
+                    <button class="search-button second-part-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+                </div>
+
+            </div>
+
+            <div class="delete-part second-part">
+                    <h4 class="h4-heading">Delete PRODUCT</h4>
+
+                <div class="search-detail-put">
+                    <label for="delete-id">Product ID</label>
+                    <input id="delete-id" class="id-delete" type="text" placeholder="Enter product ID">
+                    <button class="delete-button second-part-button" type="submit"><i class="fa-solid fa-trash-can"></i> Delete</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- 3RD SECTION -->
+    <section>
+
+        <div class="inventory-statistics-container">
+            <h4 class="inventory-h4-heading">INVENTORY STATISTICS</h4>
+            <div class="js-detail-product-container">
+
+                <div class="total-inventory-products third-part">
+                    <i class="fa-solid fa-bag-shopping js-logo"></i>
+
+                    <div class="js-total-products parrag-number">
+                        <p class="total-pro-parag">Total Products</p>
+                        <p class="total-prod-number"></p>
+                    </div>
+
+                </div>
+
+                <div class="total-stock-products third-part">
+                    <i class="fa-solid fa-cubes js-logo"></i>
+
+                    <div class="js-total-stock parrag-number">
+                        <p class="total-stock-parag">Total stock</p>
+                        <p class="total-stock-number"></p>
+                    </div>
+
+                </div>
+
+                <div class="average-product-price third-part">
+                    <i class="fa-solid fa-dollar-sign js-logo"></i>
+
+                    <div class="js-average-price parrag-number">
+                        <p class="total-price-parrag">Average Product Price</p>
+                        <p class="total-price-number"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 4TH SECTION -->
+    <section>
+        <div class="product-list-table">
+            <h4 class="h4-product-table">PRODUCT LIST</h4>
+            <div class="list-table-detail">
+
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
