@@ -4,6 +4,12 @@ A browser-based inventory management tool built with HTML, CSS, and vanilla Java
 
 ---
 
+# Live Demo
+
+https://burhanuddin-gif.github.io/Product-Inventory-Management/
+
+---
+
 ## Features
 
 - Add products with ID, name, price, and stock
@@ -55,7 +61,7 @@ No build tools or dependencies required.
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/burhanUdDin-gif/Product-Inventory-Management>
 ```
 
 2. Open `index.html` in any browser.
